@@ -1,5 +1,5 @@
 .product {
-  padding: 137px 0 165px;
+  padding: 137px 0 245px;
 }
 
 .product__wrapper {
@@ -154,6 +154,10 @@
 }
 
 @media (max-width: 992px) {
+  .product {
+    padding-bottom: 165px;
+  }
+
   .product__wrapper {
     flex-wrap: wrap;
     gap: 40px;

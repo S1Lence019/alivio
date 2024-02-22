@@ -6,6 +6,10 @@
   height: 85px;
 }
 
+.header__wrapper .logo {
+  fill: var(--co-green);
+}
+
 .header__nav {
   margin-right: min(105px, 7vw);
 }
