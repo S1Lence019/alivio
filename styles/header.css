@@ -78,7 +78,25 @@
 }
 
 @media (max-width: 768px) {
+  .header__wrapper {
+    padding-left: 50px;
+  }
+
   .header__nav {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header__actions {
+    column-gap: 10px;
+  }
+
+  .btn {
+    width: 100px;
+  }
+
+  .btn--signin {
+    width: 55px;
   }
 }
